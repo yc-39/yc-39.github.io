@@ -58,6 +58,68 @@
     ];
 
 
+    var tableData2 = [
+        {
+            name : "www.162ii.com/",
+            url : "www.162ii.com/",
+            icon : ""
+        },
+        {
+            name : "dizhi.droppages.com/",
+            url : "dizhi.droppages.com/",
+            icon : ""
+        },
+        {
+            name : "www.164yu.com/",
+            url : "www.164yu.com/",
+            icon : ""
+        },
+        {
+            name : "www.yiren23.com/",
+            url : "www.yiren23.com/",
+            icon : ""
+        },
+        {
+            name : "www.4646jj.com/",
+            url : "www.4646jj.com/",
+            icon : ""
+        },
+        {
+            name : "www.00ixix.com",
+            url : "www.00ixix.com",
+            icon : ""
+        },
+        {
+            name : "ddtv666.com/",
+            url : "ddtv666.com/",
+            icon : ""
+        },
+        {
+            name : "6678df.com/",
+            url : "6678df.com/",
+            icon : ""
+        },
+        {
+            name : "www.30rrxx.com/",
+            url : "www.30rrxx.com/",
+            icon : ""
+        },
+        {
+            name : "38sn.conn/",
+            url : "38sn.conn/",
+            icon : ""
+        },
+        {
+            name : "667ke.com/",
+            url : "667ke.com/",
+            icon : ""
+        },
+        {
+            name : "lunlibi.com/",
+            url : "lunlibi.com/",
+            icon : ""
+        }
+    ];
 
     $(function(){
         var str1 = "";
@@ -67,17 +129,37 @@
         str1 += "    <td class=\"text-c\">网站</td>";
         str1 += "    <td class=\"text-c\">url</td>";
         str1 += "  </thead>";
-        for (var i in tableData1) {
+        $(tableData1).each(function() {
             str1 += "</tr>";
-            str1 += "<td class=\"bookmark_icon\"><img src=\"" + tableData1[i].icon + "\"></td>";
-            str1 += "<td class=\"bookmark_name\"><a href=\"" + tableData1[i].url + "\" target=\"_blank\">" + tableData1[i].name + "</a></td>";
-            str1 += "<td class=\"bookmark_link\"><a href=\"" + tableData1[i].url + "\" target=\"_blank\">" + tableData1[i].url + "</a></td>";
+            str1 += "<td class=\"bookmark_icon\"><img src=\"" + this.icon + "\"></td>";
+            str1 += "<td class=\"bookmark_name\"><a href=\"" + this.url + "\" target=\"_blank\">" + this.name + "</a></td>";
+            str1 += "<td class=\"bookmark_link\"><a href=\"" + this.url + "\" target=\"_blank\">" + this.url + "</a></td>";
             str1 += "</tr>";
-        }
+        })
         str1 += "</table>";
 
         $("#div1").html(str1);
+
+
+        var str2 = "";
+        str2 += "<table class=\"bookmark_table table table-border table-bordered table-hover radius\">";
+        str2 += "  <thead class=\"text-shadow c-666\">";
+        str2 += "    <td class=\"text-c\">icon</td>";
+        str2 += "    <td class=\"text-c\">网站</td>";
+        str2 += "    <td class=\"text-c\">url</td>";
+        str2 += "  </thead>";
+        $(tableData2).each(function() {
+            str2 += "</tr>";
+            str2 += "<td class=\"bookmark_icon\"><img src=\"" + this.icon + "\"></td>";
+            str2 += "<td class=\"bookmark_name\"><a href=\"" + this.url + "\" target=\"_blank\">" + this.name + "</a></td>";
+            str2 += "<td class=\"bookmark_link\"><a href=\"" + this.url + "\" target=\"_blank\">" + this.url + "</a></td>";
+            str2 += "</tr>";
+        })
+        str2 += "</table>";
+
+        $("#div2").html(str2);
     })
+
 
     </script>
 
