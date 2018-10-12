@@ -2,229 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>yc常用书签</title>
+    <title>导航</title>
     <script src="lib/jquery/1.9.1/jquery.js"></script>
     <script src="lib/h-ui/js/H-ui.js"></script>
     <link rel="stylesheet" type="text/css" href="lib/h-ui/css/H-ui.css" />
 </head>
 <body>
-
-    <div id="div1"></div>
-    <div id="div2" class="mt-10"></div>
-
-
-    <script>
-    var tableData1 = [
-        {
-            name : "百度",
-            url : "https://www.baidu.com/",
-            icon : "https://www.baidu.com/favicon.ico"
-        },
-        {
-            name : "google翻译",
-            url : "https://translate.google.cn/",
-            icon : "https://translate.google.cn/favicon.ico"
-        },
-        {
-            name : "maven仓库",
-            url : "https://mvnrepository.com/",
-            icon : "https://mvnrepository.com/assets/images/7080b8b0f6f48e6fbaffd5f9d85fcc7f-favicon.ico"
-        },
-        {
-            name : 'stackoverflow',
-            url : 'https://stackoverflow.com/',
-            icon : 'https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico'
-        },
-        {
-            name : "创建springboot项目",
-            url : "https://start.spring.io/",
-            icon : "https://start.spring.io/favicon.ico"
-        },
-        {
-            name : "w3school",
-            url : "http://www.w3school.com.cn/",
-            icon : "http://www.w3school.com.cn/favicon.ico"
-        },
-        {
-            name : "H-ui前端框架",
-            url : "http://www.h-ui.net/",
-            icon : "http://www.h-ui.net/favicon.ico"
-        },
-        {
-            name : "大数据导航",
-            url : "http://hao.199it.com/",
-            icon : "http://hao.199it.com/favicon.ico"
-        },
-        {
-            name : "在线工具（json、格式化、前端工具）",
-            url : "https://www.beejson.com/",
-            icon : "https://www.beejson.com/images/common/itgongju.png"
-        },
-        {
-            name : "好工具网",
-            url : "http://www.nicetool.net/",
-            icon : "http://www.nicetool.net/static/favicon.ico"
-        },
-        {
-            name : "在线工具大全",
-            url : "http://www.egouz.com/tools/",
-            icon : "http://www.egouz.com/favicon.ico"
-        },
-        {
-            name : "CTF在线工具",
-            url : "http://ctf.ssleye.com/",
-            icon : "http://ctf.ssleye.com/static/ctf_favicon.ico"
-        },
-        {
-            name : "DIY斗图",
-            url : "https://www.diydoutu.com/",
-            icon : "https://www.diydoutu.com/image/DIY.png"
-        },
-        {
-            name : "",
-            url : "",
-            icon : ""
-        },
-        {
-            name : "",
-            url : "",
-            icon : ""
-        }
-    ];
-
-
-    var tableData2 = [
-        {
-            name : "www.162ii.com/",
-            url : "http://www.162ii.com/",
-            icon : ""
-        },
-        {
-            name : "dizhi.droppages.com/",
-            url : "http://dizhi.droppages.com/",
-            icon : ""
-        },
-        {
-            name : "www.164yu.com/",
-            url : "http://www.164yu.com/",
-            icon : ""
-        },
-        {
-            name : "www.yiren23.com/",
-            url : "http://www.yiren23.com/",
-            icon : ""
-        },
-        {
-            name : "www.4646jj.com/",
-            url : "http://www.4646jj.com/",
-            icon : ""
-        },
-        {
-            name : "www.00ixix.com",
-            url : "http://www.00ixix.com",
-            icon : ""
-        },
-        {
-            name : "ddtv666.com/",
-            url : "http://ddtv666.com/",
-            icon : ""
-        },
-        {
-            name : "6678df.com/",
-            url : "http://6678df.com/",
-            icon : ""
-        },
-        {
-            name : "www.30rrxx.com/",
-            url : "http://www.30rrxx.com/",
-            icon : ""
-        },
-        {
-            name : "38sn.conn/",
-            url : "http://38sn.conn/",
-            icon : ""
-        },
-        {
-            name : "667ke.com/",
-            url : "http://667ke.com/",
-            icon : ""
-        },
-        {
-            name : "lunlibi.com/",
-            url : "http://lunlibi.com/",
-            icon : ""
-        }
-    ];
-
-    $(function(){
-        var str1 = "";
-        str1 += "<table class=\"bookmark_table table table-border table-bordered table-hover radius\">";
-        str1 += "  <thead class=\"text-shadow c-666\">";
-        str1 += "    <td class=\"text-c\">icon</td>";
-        str1 += "    <td class=\"text-c\">网站</td>";
-        str1 += "    <td class=\"text-c\">url</td>";
-        str1 += "  </thead>";
-        $(tableData1).each(function() {
-            str1 += "</tr>";
-            str1 += "<td class=\"bookmark_icon\"><img src=\"" + this.icon + "\"></td>";
-            str1 += "<td class=\"bookmark_name\"><a href=\"" + this.url + "\" target=\"_blank\">" + this.name + "</a></td>";
-            str1 += "<td class=\"bookmark_link\"><a href=\"" + this.url + "\" target=\"_blank\">" + this.url + "</a></td>";
-            str1 += "</tr>";
-        })
-        str1 += "</table>";
-
-        $("#div1").html(str1);
-
-
-        var str2 = "";
-        str2 += "<table class=\"bookmark_table table table-border table-bordered table-hover radius\">";
-        str2 += "  <thead class=\"text-shadow c-666\">";
-        str2 += "    <td class=\"text-c\">icon</td>";
-        str2 += "    <td class=\"text-c\">网站</td>";
-        str2 += "    <td class=\"text-c\">url</td>";
-        str2 += "  </thead>";
-        $(tableData2).each(function() {
-            str2 += "</tr>";
-            str2 += "<td class=\"bookmark_icon\"><img src=\"" + this.icon + "\"></td>";
-            str2 += "<td class=\"bookmark_name\"><a href=\"" + this.url + "\" target=\"_blank\">" + this.name + "</a></td>";
-            str2 += "<td class=\"bookmark_link\"><a href=\"" + this.url + "\" target=\"_blank\">" + this.url + "</a></td>";
-            str2 += "</tr>";
-        })
-        str2 += "</table>";
-
-        $("#div2").html(str2);
-    })
-
-
-    </script>
-
     <style>
-        .bookmark_table {
+        #table-nav {
             width: 80%;
             margin: auto;
             margin-top: 1rem;
         }
-        .bookmark_table thead td {
+        #table-nav td {
             font-weight: bold;
             font-size: 1.2rem;
+            text-align: center;
         }
-        .bookmark_icon {
-            width: 3.5rem;
-            height: 2.2rem;
-            text-align: center !important;
-        }
-        .bookmark_icon img {
-            width: 2rem;
-            height: 2rem;
-        }
-        .bookmark_name {
-            font-weight: bold;
-            font-size: 1rem;
-        }
-        .bookmark_link {
-            font-weight: bold;
-            font-size: 1rem;
-        }
-    </style> 
+    </style>
+    <table id="table-nav" class="table table-border table-bordered table-hover radius">
+<!--         <thead class="text-shadow c-666">
+            <td class="text-c">name</td>
+        </thead> -->
+        <tr>
+            <td><a href="./bookmark.html">书 签</a></td>
+        </tr>
+        <tr>
+            <td><a href="./canvas_heart.html">画心形</a></td>
+        </tr>
+    </table>
+    
 </body>
 </html>

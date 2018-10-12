@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas_heart" style="width: 400px; height: 400px; border: 1px solid black;">
+        你的浏览器不支持canvas,请升级你的浏览器
+    </canvas>
+
+
+    <script>
+        var canvas_heart = document.getElementById("canvas_heart");
+
+        canvas_heart.onclick = function(e) {
+            var r = 5; // 比例大小
+            var part = 5; // 等分份数
+            var points = [];
+            for (let i=0; i<part; i++) {
+                var step = i / part * (Math.PI * 2); // 点所处角度
+                // 计算点坐标
+                // x = 16 (sin t)^3
+                // y = 13cost - 5cos2t - 2cos3t - cos4t
+                var point = {
+                    x : (r * (16 * Math.pow(Math.sin(step), 3))) + canvas_heart.width / 2,
+                    y : - (r * (13 * Math.cos(step) - 5 * Math.cos(2 * step) - 2 * Math.cos(3 * step) - Math.cos(4 * step))) / 1.5 + canvas_heart.height / 2
+                }
+                points.push(point);
+            }
+
+            var ctx = canvas_heart.getContext("2d");
+            ctx.beginPath(); // 开始画图
+            ctx.strokeStyle = "red";
+            ctx.moveTo(points[0].x, points[0].y); // 移动到第一个点
+            var i = 1;
+            function todraw() {
+                if (i<points.length) {
+                    // console.info(points[i]);
+                    // 根据点依次画线
+                    ctx.lineTo(points[i].x, points[i].y); 
+                    ctx.stroke();
+                    i++;
+                }
+            }
+            // 定时循环执行，为了表现动态画图
+            setInterval(todraw, 50);
+
+            // 封闭
+            ctx.closePath();
+            ctx.stroke();
+
+        }     
+
+    </script>
+    
+</body>
+</html>
