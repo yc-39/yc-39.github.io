@@ -1,0 +1,206 @@
+var bookmark_json = [
+
+    {
+        "name": "百度",
+        "url": "https://www.baidu.com/",
+        "icon": "https://www.baidu.com/favicon.ico",
+        "memo" : "",
+        "tag" : "常用,搜索"
+    },
+    {
+        "name": "google翻译",
+        "url": "https://translate.google.cn/",
+        "icon": "https://translate.google.cn/favicon.ico",
+        "memo" : "",
+        "tag" : "常用"
+    },
+    {
+        "name": "maven仓库",
+        "url": "https://mvnrepository.com/",
+        "icon": "https://mvnrepository.com/assets/images/7080b8b0f6f48e6fbaffd5f9d85fcc7f-favicon.ico",
+        "memo" : "",
+        "tag" : "开发"
+    },
+    {
+        "name": "stackoverflow",
+        "url": "https://stackoverflow.com/",
+        "icon": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico",
+        "memo" : "",
+        "tag" : "开发"
+    },
+    {
+        "name": "创建springboot项目",
+        "url": "https://start.spring.io/",
+        "icon": "https://start.spring.io/favicon.ico",
+        "memo" : "",
+        "tag" : "开发"
+    },
+    {
+        "name": "w3school",
+        "url": "http://www.w3school.com.cn/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "开发,学习"
+    },
+    {
+        "name": "H-ui前端框架",
+        "url": "http://www.h-ui.net/",
+        "icon": "http://www.h-ui.net/favicon.ico",
+        "memo" : "",
+        "tag" : "前端,开发"
+    },
+    {
+        "name": "大数据导航",
+        "url": "http://hao.199it.com/",
+        "icon": "http://hao.199it.com/favicon.ico",
+        "memo" : "",
+        "tag" : "工具,黄页"
+    },
+    {
+        "name": "在线工具（json、格式化、前端工具）",
+        "url": "https://www.beejson.com/",
+        "icon": "https://www.beejson.com/images/common/itgongju.png",
+        "memo" : "",
+        "tag" : "工具"
+    },
+    {
+        "name": "好工具网",
+        "url": "http://www.nicetool.net/",
+        "icon": "http://www.nicetool.net/static/favicon.ico",
+        "memo" : "",
+        "tag" : "工具"
+    },
+    {
+        "name": "在线工具大全",
+        "url": "http://www.egouz.com/tools/",
+        "icon": "http://www.egouz.com/favicon.ico",
+        "memo" : "",
+        "tag" : "工具"
+    },
+    {
+        "name": "CTF在线工具",
+        "url": "http://ctf.ssleye.com/",
+        "icon": "http://ctf.ssleye.com/static/ctf_favicon.ico",
+        "memo" : "",
+        "tag" : "工具"
+    },
+    {
+        "name": "DIY斗图",
+        "url": "https://www.diydoutu.com/",
+        "icon": "https://www.diydoutu.com/image/DIY.png",
+        "memo" : "",
+        "tag" : "表情包"
+    },
+    {
+        "name": "百度识图",
+        "url": "http://image.baidu.com/?fr=shitu",
+        "icon": "https://www.baidu.com/cache/icon/favicon.ico",
+        "memo" : "",
+        "tag" : "识图"
+    },
+    {
+        "name": "tineye识图",
+        "url": "https://www.tineye.com/",
+        "icon": "https://www.tineye.com/favicon.ico",
+        "memo" : "",
+        "tag" : "识图"
+    },
+    {
+        "name": "360识图",
+        "url": "http://st.so.com/",
+        "icon": "http://st.so.com/faviconso.ico",
+        "memo" : "",
+        "tag" : "识图"
+    },
+    {
+        "name": "hpoi手办维基",
+        "url": "www.hpoi.net.cn",
+        "icon": "http://res.hpoi.net.cn/gk/res/img/logo.png",
+        "memo" : "",
+        "tag" : "二次元"
+    },
+    
+    {
+        "name": "www.162ii.com/",
+        "url": "http://www.162ii.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "dizhi.droppages.com/",
+        "url": "http://dizhi.droppages.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "www.164yu.com/",
+        "url": "http://www.164yu.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "www.yiren23.com/",
+        "url": "http://www.yiren23.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "www.4646jj.com/",
+        "url": "http://www.4646jj.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "www.00ixix.com",
+        "url": "http://www.00ixix.com",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "ddtv666.com/",
+        "url": "http://ddtv666.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "6678df.com/",
+        "url": "http://6678df.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "www.30rrxx.com/",
+        "url": "http://www.30rrxx.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "38sn.conn/",
+        "url": "http://38sn.conn/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "667ke.com/",
+        "url": "http://667ke.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "lunlibi.com/",
+        "url": "http://lunlibi.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    }]

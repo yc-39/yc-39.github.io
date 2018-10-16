@@ -1,0 +1,40 @@
+.tag-div {
+    width: 80%;
+    margin: auto;
+}
+
+.tag-btn {
+    margin: 5px;
+}
+
+.bookmark_table {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.bookmark_table thead td {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.bookmark_icon {
+    width: 3.5rem;
+    height: 2.2rem;
+    text-align: center !important;
+}
+
+.bookmark_icon img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.bookmark_name {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.bookmark_link {
+    font-weight: bold;
+    font-size: 1rem;
+}
