@@ -114,7 +114,7 @@ var bookmark_json = [
     },
     {
         "name": "hpoi手办维基",
-        "url": "www.hpoi.net.cn",
+        "url": "http://www.hpoi.net.cn",
         "icon": "http://res.hpoi.net.cn/gk/res/img/logo.png",
         "memo" : "",
         "tag" : "二次元"
