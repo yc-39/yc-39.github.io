@@ -27,6 +27,13 @@ var bookmark_json = [
         "icon": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico",
         "memo" : "",
         "tag" : "开发"
+    },    
+    {
+        "name": "V2EX = way to explore",
+        "url": "https://www.v2ex.com/",
+        "icon": "https://www.v2ex.com/static/img/icon_rayps_64.png",
+        "memo" : "",
+        "tag" : "开发"
     },
     {
         "name": "创建springboot项目",
@@ -111,10 +118,25 @@ var bookmark_json = [
         "icon": "http://st.so.com/faviconso.ico",
         "memo" : "",
         "tag" : "识图"
+    }, 
+    {
+        "name": "萌娘百科",
+        "url": "https://zh.moegirl.org/",
+        "icon": "https://zh.moegirl.org/favicon.ico",
+        "memo" : "",
+        "tag" : "二次元"
+    },   
+    {
+        "name": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
+        "url": "https://www.bilibili.com/",
+        "icon": "https://static.hdslb.com/images/favicon.ico",
+        "memo" : "",
+        "tag" : "二次元,搜索"
     },
+
     {
         "name": "hpoi手办维基",
-        "url": "www.hpoi.net.cn",
+        "url": "http://www.hpoi.net.cn",
         "icon": "http://res.hpoi.net.cn/gk/res/img/logo.png",
         "memo" : "",
         "tag" : "二次元"
