@@ -89,7 +89,21 @@ var bookmark_json = [
         "url": "http://ctf.ssleye.com/",
         "icon": "http://ctf.ssleye.com/static/ctf_favicon.ico",
         "memo" : "",
-        "tag" : "工具"
+        "tag" : "工具,开发"
+    },
+    {
+        "name": "菜鸟教程",
+        "url": "https://www.runoob.com/",
+        "icon": "https://static.runoob.com/images/favicon.ico",
+        "memo" : "",
+        "tag" : "开发,学习"
+    },
+    {
+        "name": "菜鸟工具",
+        "url": "https://c.runoob.com/",
+        "icon": "https://static.runoob.com/images/favicon.ico",
+        "memo" : "",
+        "tag" : "工具,开发"
     },
     {
         "name": "DIY斗图",
@@ -127,13 +141,27 @@ var bookmark_json = [
         "tag" : "二次元"
     },   
     {
+        "name": "鼠绘漫画",
+        "url": "http://www.ishuhui.com/",
+        "icon": "http://res.ishuhui.com/ish/ish_favicon.png",
+        "memo" : "",
+        "tag" : "二次元"
+    }, 
+
+    {
         "name": "哔哩哔哩 (゜-゜)つロ 干杯~-bilibili",
         "url": "https://www.bilibili.com/",
         "icon": "https://static.hdslb.com/images/favicon.ico",
         "memo" : "",
         "tag" : "二次元,搜索"
     },
-
+    {
+        "name": "anitoys",
+        "url": "http://www.anitoys.com/",
+        "icon": "http://www.anitoys.com/app/topc/statics/favicon.ico",
+        "memo" : "",
+        "tag" : "二次元"
+    },
     {
         "name": "hpoi手办维基",
         "url": "http://www.hpoi.net.cn",
