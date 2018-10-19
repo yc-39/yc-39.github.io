@@ -143,6 +143,14 @@ var bookmark_json = [
     },
     
     {
+        "name": "免费的BT种子搜索和下载服务",
+        "url": "http://storebt.co/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    
+    {
         "name": "www.162ii.com/",
         "url": "http://www.162ii.com/",
         "icon": "",
@@ -164,14 +172,14 @@ var bookmark_json = [
         "tag" : "H"
     },
     {
-        "name": "www.yiren23.com/",
+        "name": "伊人成人综合网",
         "url": "http://www.yiren23.com/",
         "icon": "",
         "memo" : "",
         "tag" : "H"
     },
     {
-        "name": "www.4646jj.com/",
+        "name": "四虎影库新版",
         "url": "http://www.4646jj.com/",
         "icon": "",
         "memo" : "",
