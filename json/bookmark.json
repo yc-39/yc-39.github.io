@@ -27,11 +27,18 @@ var bookmark_json = [
         "icon": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico",
         "memo" : "",
         "tag" : "开发"
-    },    
+    },
     {
         "name": "V2EX = way to explore",
         "url": "https://www.v2ex.com/",
         "icon": "https://www.v2ex.com/static/img/icon_rayps_64.png",
+        "memo" : "",
+        "tag" : "开发"
+    }, 
+    {
+        "name": "CSDN论坛",
+        "url": "https://bbs.csdn.net/home",
+        "icon": "https://csdnimg.cn/public/favicon.ico",
         "memo" : "",
         "tag" : "开发"
     },
@@ -67,6 +74,13 @@ var bookmark_json = [
         "name": "在线工具（json、格式化、前端工具）",
         "url": "https://www.beejson.com/",
         "icon": "https://www.beejson.com/images/common/itgongju.png",
+        "memo" : "",
+        "tag" : "工具"
+    },
+    {
+        "name": "在线工具",
+        "url": "https://tool.lu/",
+        "icon": "https://tool.lu/favicon.ico",
         "memo" : "",
         "tag" : "工具"
     },
