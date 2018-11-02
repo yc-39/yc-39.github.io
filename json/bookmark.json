@@ -71,6 +71,14 @@ var bookmark_json = [
         "tag" : "工具,黄页"
     },
     {
+        "name": "json在线解析及格式化验证",
+        "url": "https://www.json.cn/",
+        "icon": "https://www.json.cn/favicon.ico",
+        "memo" : "",
+        "tag" : "工具"
+    },
+    
+    {
         "name": "在线工具（json、格式化、前端工具）",
         "url": "https://www.beejson.com/",
         "icon": "https://www.beejson.com/images/common/itgongju.png",
@@ -175,7 +183,7 @@ var bookmark_json = [
         "icon": "http://www.anitoys.com/app/topc/statics/favicon.ico",
         "memo" : "",
         "tag" : "二次元"
-    },
+    },    
     {
         "name": "hpoi手办维基",
         "url": "http://www.hpoi.net.cn",
@@ -183,15 +191,50 @@ var bookmark_json = [
         "memo" : "",
         "tag" : "二次元"
     },
+    {
+        "name": "绅士交易",
+        "url": "http://www.acgpy.net/wpx",
+        "icon": "http://www.acgpy.net/wpx/wp-content/uploads/2016/07/cropped-1469503194_266150-150x150.png?x64598",
+        "memo" : "",
+        "tag" : "二次元,H"
+    },
     
+    {
+        "name": "琉璃神社",
+        "url": "https://www.hacg.me",
+        "icon": "https://www.hacg.me/favicon.ico",
+        "memo" : "",
+        "tag" : "二次元,H"
+    },
+    
+    {
+        "name": "推女神",
+        "url": "https://www.nvshens.com",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "宅男福利社",
+        "url": "https://www.zhainanfulishe.com",
+        "icon": "https://www.zhainanfulishe.com/wp-content/uploads/2015/04/ico.png",
+        "memo" : "",
+        "tag" : "H"
+    },
+    {
+        "name": "宅男猫",
+        "url": "http://www.zhainanmao.com",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H"
+    },
     {
         "name": "免费的BT种子搜索和下载服务",
         "url": "http://storebt.co/",
         "icon": "",
         "memo" : "",
-        "tag" : "H"
+        "tag" : "H,搜索"
     },
-    
     {
         "name": "www.162ii.com/",
         "url": "http://www.162ii.com/",
@@ -214,14 +257,14 @@ var bookmark_json = [
         "tag" : "H"
     },
     {
-        "name": "伊人成人综合网",
+        "name": "www.yiren23.com/",
         "url": "http://www.yiren23.com/",
         "icon": "",
         "memo" : "",
         "tag" : "H"
     },
     {
-        "name": "四虎影库新版",
+        "name": "www.4646jj.com/",
         "url": "http://www.4646jj.com/",
         "icon": "",
         "memo" : "",
