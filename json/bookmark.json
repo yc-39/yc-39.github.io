@@ -22,6 +22,14 @@ var bookmark_json = [
         "tag" : "开发"
     },
     {
+        "name": "maven仓库",
+        "url": "http://repo1.maven.org/maven2/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "开发"
+    },
+    
+    {
         "name": "stackoverflow",
         "url": "https://stackoverflow.com/",
         "icon": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico",
@@ -235,6 +243,21 @@ var bookmark_json = [
         "memo" : "",
         "tag" : "H,搜索"
     },
+    {
+        "name": "www.xfyy17.com",
+        "url": "http://www.xfyy17.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H,搜索"
+    },
+    {
+        "name": "www.mm131.com",
+        "url": "http://www.mm131.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H,搜索"
+    },
+    
     {
         "name": "www.162ii.com/",
         "url": "http://www.162ii.com/",
