@@ -8,6 +8,13 @@ var bookmark_json = [
         "tag" : "常用,搜索"
     },
     {
+        "name": "mezw",
+        "url": "https://so.mezw.com/",
+        "icon": "https://so.mezw.com/favicon.ico",
+        "memo" : "",
+        "tag" : "常用,搜索"
+    },
+    {
         "name": "google翻译",
         "url": "https://translate.google.cn/",
         "icon": "https://translate.google.cn/favicon.ico",
@@ -85,7 +92,13 @@ var bookmark_json = [
         "memo" : "",
         "tag" : "工具"
     },
-    
+    {
+        "name": "在线工具资料箱",
+        "url": "http://www.toolzl.com/",
+        "icon": "http://www.toolzl.com/favicon.ico",
+        "memo" : "",
+        "tag" : "工具"
+    },
     {
         "name": "在线工具（json、格式化、前端工具）",
         "url": "https://www.beejson.com/",
@@ -164,11 +177,18 @@ var bookmark_json = [
         "tag" : "识图"
     }, 
     {
+        "name": "catbox",
+        "url": "https://catbox.moe/",
+        "icon": "https://catbox.moe/pictures/favicon.ico",
+        "memo" : "",
+        "tag" : "图床"
+    },
+    {
         "name": "萌娘百科",
         "url": "https://zh.moegirl.org/",
         "icon": "https://zh.moegirl.org/favicon.ico",
         "memo" : "",
-        "tag" : "二次元"
+        "tag" : "二次元,搜索"
     },   
     {
         "name": "鼠绘漫画",
@@ -183,7 +203,14 @@ var bookmark_json = [
         "url": "https://www.bilibili.com/",
         "icon": "https://static.hdslb.com/images/favicon.ico",
         "memo" : "",
-        "tag" : "二次元,搜索"
+        "tag" : "二次元"
+    },
+    {
+        "name": "Bangumi 番组计划",
+        "url": "http://bgm.tv/",
+        "icon": "http://bgm.tv/img/favicon.ico",
+        "memo" : "",
+        "tag" : "二次元"
     },
     {
         "name": "anitoys",
@@ -244,20 +271,19 @@ var bookmark_json = [
         "tag" : "H,搜索"
     },
     {
-        "name": "www.xfyy17.com",
-        "url": "http://www.xfyy17.com/",
-        "icon": "",
-        "memo" : "",
-        "tag" : "H,搜索"
-    },
-    {
         "name": "www.mm131.com",
         "url": "http://www.mm131.com/",
         "icon": "",
         "memo" : "",
         "tag" : "H,搜索"
     },
-    
+    {
+        "name": "www.xfyy17.com",
+        "url": "http://www.xfyy17.com/",
+        "icon": "",
+        "memo" : "",
+        "tag" : "H,搜索"
+    },
     {
         "name": "www.162ii.com/",
         "url": "http://www.162ii.com/",
