@@ -11,6 +11,77 @@
 </head>
 <body>
 
+    <style>
+        .bmd_div {
+            width: 80%;
+            margin: auto;
+        }
+        .bmd_title {
+            width: 10rem;
+        }
+
+        .bmd_val {
+            width: 80rem;
+        }
+        #tag_fold_div {
+            display: none;
+        }
+    </style>
+
+    <div class="bmd_div">
+        <table class="bmd_table table table-border table-bordered table-hover radius">
+            <tr>
+                <td class="bmd_title">name</td>
+                <td class="bmd_val"><input type="text" class="input-text radius size-M"></td>
+            </tr>
+            <tr>
+                <td class="bmd_title">url</td>
+                <td class="bmd_val"><input type="text" class="input-text radius size-M"></td>
+            </tr>
+            <tr>
+                <td class="bmd_title">icon</td>
+                <td class="bmd_val"><input type="text" class="input-text radius size-M"></td>
+            </tr>
+            <tr>
+                <td class="bmd_title">memo</td>
+                <td class="bmd_val"><input type="text" class="input-text radius size-M"></td>
+            </tr>
+            <tr>
+                <td class="bmd_title">tag</td>
+                <td class="bmd_val">
+                    <p></p>
+                    <div id="tag_fold">
+                        <div id="tag_fold_btn" class="btn">显示/隐藏标签列表</div>
+                        <div id="tag_fold_div" class="">
+                            <div class="tag_cb_div">
+                                <input type="checkbox">
+                                <label>复选框1</label>
+                            </div>
+                            <div class="tag_cb_div">
+                                <input type="checkbox">
+                                <label>复选框2</label>
+                            </div>
+
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        $("#tag_fold").Huifold({
+            titCell:'#tag_fold_btn',
+            mainCell:'#tag_fold_div',
+            type:1,
+            trigger:'click',
+            className:"selected",
+            speed:"first",
+        });
+    </script>
+
+
+<!-- 
     <div class="tag-div"></div>
     <div class="bookmark-div"></div>
 
@@ -90,6 +161,6 @@
     }
 
     </script>
-
+ -->
 </body>
 </html>
